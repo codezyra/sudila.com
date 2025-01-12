@@ -1,5 +1,7 @@
 import { inter } from "@/components/fonts";
 import "@/components/global.css";
+import Providers from "@/components/providers";
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,9 +15,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} antialiased p-8 `}>
-        <div>{children}</div>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.className} antialiased`}>
+        <Providers>
+          <main>{children}</main>
+        </Providers>
       </body>
     </html>
   );

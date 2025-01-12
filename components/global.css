@@ -1,21 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* Define CSS variables for light mode */
 :root {
-  --foreground: #ffffff;
-  --background: #171717;
+  --primary: #ffffff; /* Off-white */
+
+  --secondary: #0a0a0a; /* Almost black */
+
+  --main: #ff4326; /* Main Color */
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
+/* Define CSS variables for dark mode */
+.dark {
+  --secondary: #ffffff; /* Off-white */
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  --primary: #1e1e1e; /* Almost black */
+
+  --main: #ff4326; /* Main Color */
 }
