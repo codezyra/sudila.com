@@ -33,7 +33,7 @@ export default function Page() {
       <section className="flex flex-col items-center justify-center flex-1 px-6 py-16">
         <div className="text-center">
           <h2 className="text-4xl sm:text-6xl font-extrabold mb-4">
-            Hi, I'm <span className="text-blue-500">Sudila Jayasekara</span>
+            Hi, I&apos;m <span className="text-blue-500">Sudila Jayasekara</span>
           </h2>
           <p className="text-xl sm:text-2xl mb-6 max-w-2xl mx-auto">
             I create digital experiences that blend creativity and code.
@@ -52,10 +52,10 @@ export default function Page() {
         <div className="max-w-3xl mx-auto">
           <h3 className="text-3xl font-bold mb-4">About Me</h3>
           <p className="text-lg">
-            I'm a passionate developer specializing in full-stack web
+            I&apos;m a passionate developer specializing in full-stack web
             development. With hands-on experience in Next.js, TypeScript, and
             Tailwind CSS, I transform ideas into modern, responsive digital
-            experiences. Whether it’s building sleek user interfaces or scalable
+            experiences. Whether it&apos;s building sleek user interfaces or scalable
             backend systems, I love tackling unique challenges with innovative
             solutions.
           </p>
@@ -91,7 +91,7 @@ export default function Page() {
         <div className="max-w-3xl mx-auto">
           <h3 className="text-3xl font-bold mb-4">Contact Me</h3>
           <p className="mb-6">
-            I'm open to opportunities and collaboration. Feel free to send me a
+            I&apos;m open to opportunities and collaboration. Feel free to send me a
             message!
           </p>
           <form className="flex flex-col space-y-4">
