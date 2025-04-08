@@ -1,7 +1,7 @@
+// app/layout.tsx
 import { inter } from "@/components/fonts";
 import "@/components/global.css";
 import Providers from "@/components/providers";
-
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -17,9 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} antialiased`}>
-        <Providers>
-          <main>{children}</main>
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
